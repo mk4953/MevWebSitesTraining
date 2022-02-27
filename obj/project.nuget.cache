@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "rzyb77Dgx9kSk52Eq3yTagbOKBFr7x7gh7j0Z/eb37dt8x7HIuxoBf1dLPZfVqUTXKc1cNot2bgQpghgbkPbmw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\MevlütKahraman(Deleg\\OneDrive - Delegate A S\\Skrivebord\\DELEGATE_Work\\Traninig\\createbuilds\\Webappmev\\WebApplication1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\MevlütKahraman(Deleg\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.13\\microsoft.netcore.app.host.win-x64.5.0.13.nupkg.sha512"
+  ],
+  "logs": []
+}
