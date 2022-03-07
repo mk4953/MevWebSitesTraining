@@ -16,7 +16,7 @@ steps:
     displayName: 'Azure CLI: deploy.ps1'
     inputs:
       scriptType: pscore
-      scriptPath: '$(Pipeline.Workspace)/drop/deploy/deploy.ps1'
+      scriptPath: '$(Pipeline.Workspace)/deploy/deploy.ps1'
 
   - script: dotnet build --configuration $(buildConfiguration)
     displayName: dotnet build $(buildConfiguration)
