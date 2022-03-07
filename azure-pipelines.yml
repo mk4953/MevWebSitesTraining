@@ -15,8 +15,9 @@ steps:
   - task: AzureCLI@2
     displayName: 'Azure CLI: deploy.ps1'
     inputs:
+      azureSubscription: 'Visual Studio Enterprise-abonnement'
       scriptType: pscore
-      scriptPath: '/home/vsts/work/1/deploy/deploy.ps1'
+      scriptPath: '$(Pipeline.Workspace)/drop/deploy/deploy.ps1'
 
   - script: dotnet build --configuration $(buildConfiguration)
     displayName: dotnet build $(buildConfiguration)
