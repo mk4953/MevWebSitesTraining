@@ -16,6 +16,7 @@ steps:
     displayName: 'Azure CLI: deploy.ps1'
     inputs:
       #azureSubscription: 'Visual Studio Enterprise-abonnement'
+      connectedServiceNameARM: '$(AzDoServiceConnectionName)'
       scriptType: pscore
       scriptPath: deploy/deploy.ps1
 
